@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+    <title>IRL Toolkit Overlay</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1920px;
+            height: 1080px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* StreamElements Alerts - Green Area */
+        .alerts {
+            position: absolute;
+            left: 20px;
+            top: -290px;
+            width: 1920px;
+            height: 1080px;
+            border: none;
+            overflow: hidden;
+            transform: scale(0.4);
+            transform-origin: center;
+            z-index: 2;
+        }
+
+        .alerts iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Chatis Chat - Blue Area */
+        .chat {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 500px;
+            height: 224px;
+            border: none;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        .chat iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Follower/Sub Goal - Red Area */
+        .goal {
+            position: absolute;
+            top: 555px;
+            left: -7px;
+            width: 1920px;
+            height: 1080px;
+            border: none;
+            overflow: hidden;
+            transform: scale(0.4);
+            transform-origin: left;
+            z-index: 2;
+        }
+
+        .goal iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* ep1cLIVE Socials - Bottom Right 
+        .socials {
+            position: absolute;
+            left: 540px;
+            top: 770px;
+            width: 633px;
+            height: 355px;
+            transform: scale(0.1);
+            transform-origin: center;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+        } 
+
+        Viewer Attack Browser Overlay - On Top 
+        .attack-overlay {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 1920px;
+            height: 1080px;
+            border: none;
+            overflow: hidden;
+            z-index: 100;
+            pointer-events: auto;
+        }
+
+        .attack-overlay iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            overflow: hidden;
+            display: block;
+            scroll-behavior: none;
+        }
+            **/
+    </style>
+</head>
+<body>
+    <!-- StreamElements Alerts - Green -->
+    <div class="alerts">
+        <iframe src="https://streamelements.com/overlay/6839e985d62ba99446a99049/CB26uHjJ_LhGM1WZF6oZW4fITkIZysjZ0Tb0cN9xo-V8ZKE-"></iframe>
+    </div>
+
+    <!-- Chatis Chat - Blue -->
+    <div class="chat">
+        <iframe src="https://chatis.is2511.com/v2/?channel=ep1cLIVE&animate=true&bots=true&size=1&font=0&fontCustom=Rubik&shadow=3&hide_special_badges=true&botNames=PotatBotat" allowfullscreen></iframe>
+    </div>
+
+    <!-- Follower/Sub Goal - Red -->
+    <div class="goal">
+        <iframe src="https://streamelements.com/overlay/69640a93b73f9c3ca916e821/CB26uHjJ_LhGM1WZF6oZW4fITkIZysjZ0Tb0cN9xo-V8ZKE-"></iframe>
+    </div>
+
+    <!-- Socials
+     <div class="socials">
+        <img src="handles.png" alt="ep1cLIVE socials">
+     </div>
+
+     Viewer Attack Overlay - On Top (Transparent)
+    <div class="attack-overlay">
+        <iframe id="attackFrame" src="https://www.viewerattack.com/browser-source-e7f34b36-2c8d-4520-b032-321b671b537d" allowfullscreen></iframe>
+    </div>  -->
+
+    <script>
+        // You can add dynamic functionality here if needed
+        // Update iframe sources as needed for your overlays
+    </script>
+</body>
+</html>
